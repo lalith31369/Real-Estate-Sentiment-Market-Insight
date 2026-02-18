@@ -83,3 +83,17 @@ Possible orchestration tools:
 - Reduced manual intervention
 - Reliable task dependency handling
 - Scheduled and repeatable workflow management
+
+
+## Example (Optional) Orchestration Pseudocode
+
+```python
+def run_pipeline():
+    ingest_data()
+    clean_data()
+    engineer_features()
+    train_model()
+    generate_predictions()
+
+if __name__ == "__main__":
+    run_pipeline()
